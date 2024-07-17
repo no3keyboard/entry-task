@@ -28,21 +28,23 @@ export default function Login() {
           <div className="input-div">
             <input
               type="text"
-              className="input username"
+              
               placeholder="username"
             />
               {/*onChange={(e) => {
                 this.setState({ username: e.target.value });
-              }}*/}
+              }}
+              className="input username"*/}
             
             <input
               type="password"
-              className="input password"
+              
               placeholder="password"
             />
               {/*onChange={(e) => {
                 this.setState({ password: e.target.value });
-              }}*/}
+              }}
+              className="input password"*/}
             
           </div>
         </div>
