@@ -28,8 +28,8 @@ export default function Login() {
     }else if(res.status === 404 || res.error === "error_user_not_found"){
       //用户不存在则注册
       // console.log('用户不存在 :>> ');
-      url = 'http://localhost:3000/api/v1/join';//暂时先用默认
-      body = {username , password , email: 'example@example.com', avatar: 'default-avatar.png'}
+      url = 'http://localhost:3000/api/v1/join';
+      body = {username , password , email: username + '@shopee.com', avatar: username + '-avatar.png'}
       init ={
         method:'POST',
         body: JSON.stringify(body)
