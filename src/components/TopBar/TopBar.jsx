@@ -7,9 +7,9 @@ import userAvatar from '../../pic/icons/user.svg'
 export default function TopBar() {
   return (
     <div className = {style.container}>
-        <img src = {searchIcon} className={style.search}></img>
-        <img src = {logoIcon} className={style.logoCat}></img>
-        <img src = {userAvatar} className={style.userAvatar} alt='头像缺失'></img>
+      <img src = {searchIcon} className={style.search}></img>
+      <img src = {logoIcon} className={style.logoCat}></img>
+      <img src = {userAvatar} className={style.userAvatar} alt='头像缺失'></img>
     </div>
   )
 }
