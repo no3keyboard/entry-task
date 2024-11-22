@@ -1,4 +1,4 @@
-FE entry-task REACT
+FE entry-task REACT shopee entry-task REACT FE
 
 # Getting Started with Create React App
 
