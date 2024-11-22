@@ -1,0 +1,205 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0; /* 开始宽度为0 */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #453257;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: grid;
+    grid-template-rows: 1fr 2fr 0.5fr;
+  }
+  
+  p.title {
+    width: auto;
+    font-family: SourceSansPro-Semibold;
+    font-size: 3.75vw;
+    color: #ac8ec9;
+    border-bottom: 0.6vw solid;
+    border-color: #8560a9;
+    margin: 0;
+  }
+  
+  div.itemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.1vw 5vw 0;
+  }
+  
+  ul.itemList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-top: 3.4vw;
+  }
+  
+  li {
+    outline: none;
+  }
+  
+  li.date-item {
+    width: fit-auto;
+    margin: 0;
+    font-family: SourceSansPro-Semibold;
+    color: #ffffff;
+    border-radius: 3.75vw;
+    padding: 3px 7px 3px 7px;
+    font-size: 4.5vw;
+    margin: 2.813vw 3.75vw 0 0;
+  }
+  
+  li.channel-item {
+    width: fit-auto;
+    margin: 0;
+    font-family: SourceSansPro-Regular;
+    color: #ffffff;
+    border-radius: 12px;
+    border-style: solid;
+    padding: 3px 7px 3px 7px;
+    font-size: 3.75vw;
+    border-width: 1px;
+    margin: 2.8vw 2.8vw 0 0;
+  }
+  
+  li.date-item-pick {
+    width: fit-auto;
+    margin: 0;
+    font-family: SourceSansPro-Semibold;
+    color: #453257;
+    border-radius: 3.75vw;
+    padding: 3px 7px 3px 7px;
+    font-size: 4.5vw;
+    margin: 2.8vw 3.75vw 0 0;
+    background-color: #d5ef7f;
+  }
+  
+  li.channel-item-pick {
+    width: fit-auto;
+    margin: 0;
+    font-family: SourceSansPro-Regular;
+    color: #453257;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 7px 3px 7px;
+    background-color: #d5ef7f;
+    font-size: 3.75vw;
+    margin: 2.8vw 2.8vw 0 0;
+  }
+  
+  div.inputContainer {
+    width: 100%;
+    position: relative;
+    margin-top: 5vw;
+  }
+  
+  div.sharpCornar {
+    position: absolute;
+    top: -5.3vw;
+    left: 37vw;
+    width: 0;
+    height: 0;
+    border-width: 2.8vw;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+  }
+  
+  input.searchInput {
+    box-sizing: border-box;
+    width: 45%;
+    height: 7.8vw;
+    outline: none;
+    border-width: 0;
+    background-size: 6.25vw 3.75vw;
+    background-position: 0 50%;
+    padding-left: 5.3vw;
+    color: #8560a9;
+  }
+
+  input.searchInput::placeholder{
+    color: #888; /* 设置 placeholder 的颜色 */
+    font-style: italic; /* 设置 placeholder 的字体样式 */
+  }
+
+  input.dateFrom {
+    background-image: url(../../pic/icons/date-from.svg);
+    background-repeat: no-repeat;
+  }
+  
+  input.dateTo {
+    background-image: url(../../pic/icons/date-to.svg);
+    background-repeat: no-repeat;
+  }
+  
+  button {
+    outline: none;
+  }
+  
+  .search {
+    width: 100%;
+    height: 20vw;
+    background-color: #bababa;
+    background-image: url(../../pic/icons/search.svg);
+    background-repeat: no-repeat;
+    background-size: 5vw 5vw;
+    background-position: 32% 50%;
+    font-size: 5vw;
+    font-family: SourceSansPro-Semibold;
+    align-self: flex-end;
+    color: #666666;
+  }
+  
+  .search-ready {
+    width: 100%;
+    height: 64px;
+    background-color: #d5ef7f;
+    background-image: url(../../pic/icons/search.svg);
+    background-repeat: no-repeat;
+    background-size: 5vw 5vw;
+    background-position: 32% 50%;
+    font-size: 5vw;
+    font-family: SourceSansPro-Semibold;
+    align-self: flex-end;
+    color: #453257;
+  }
+  
+  div.line-tip-container {
+    position: absolute;
+    height: 8vw;
+    align-self: flex-end;
+    justify-self: center;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  p.line-tip {
+    font-family: SourceSansPro-Regular;
+    font-size: 3.1vw;
+    color: #8560a9;
+    text-align: center;
+    margin: 0;
+    margin-top: 1vw;
+  }
+  

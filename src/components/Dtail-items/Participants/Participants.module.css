@@ -1,0 +1,65 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .userList{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 0 5vw;
+    border-bottom: .625vw solid #e8e8e8;
+  }
+  
+  .userContainer{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 9.375vw;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .goingLikes{
+    display: flex;
+    align-items: center;
+    margin-right: 3.125vw;
+  }
+
+  .icon{
+    width: 3.75vw;
+    height: 3vw;
+    margin-right: 1.8vw;
+  }
+
+  .goingLikes p{
+    color: #67616d;
+    font-family: SourceSansPro-Regular;
+    font-size: 3.75vw;
+    width: 15vw;
+    margin: 0;
+  }
+
+  .imgList{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .userIcon{
+    width: 7.5vw;
+    height: 7.5vw;
+    border-radius: 100%;
+    margin-right: 2vw;
+  }

@@ -1,0 +1,78 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eventTop{
+    margin-top: 12.5vw;
+    padding: 0 5vw 7vw 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: .5vw solid #e8e8e8;
+  }
+
+  .channel{
+    font-family: SourceSansPro-Regular;
+    font-size: 3.75vw;
+    color: #8560a9;
+    border-radius: 3.2vw;
+    border: 1px solid #D3C1E5;
+    padding: .6vw 3.1vw .9vw 1.8vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .title{
+    font-family: SourceSansPro-Semibold;
+    font-size: 6.2vw;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #453257;
+    margin-bottom: 5vw;
+  }
+  
+  .userInfo{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .userAvatar{
+    width: 11.25vw;
+    height: 11.25vw;
+    border-radius: 100%;
+    margin-right: 3.75vw;
+  }
+
+  .nametime{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userName{
+    font-size: 4.4vw;
+    color: #67616d;
+    margin: 0 0 1.5vw 0;
+  }
+
+  .publishDay{
+    font-size: 3.7vw;
+    color: #bababa;
+  }

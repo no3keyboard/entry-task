@@ -1,0 +1,30 @@
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 12.5vw;
+    background-color: #8560A9;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    position: fixed;
+    z-index: 1000;   /* 确保在上层 */
+}
+
+.search{
+    width: 7.5vw;
+    height: 7.5vw;
+    margin-right: 12vw;
+}
+
+.logoCat{
+    width: 7.5vw;
+    height: 7.5vw;
+    justify-self: center;
+}
+
+.userAvatar{
+    width: 7.5vw;
+    height: 7.5vw;
+    margin-left: 12vw;
+}

@@ -1,0 +1,90 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+  
+  div.search-tip {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 22vw;
+    display: grid;
+    grid-template-rows: 9fr 8fr;
+    background-color: #faf9fc;
+    padding: 3.5vw 5vw 3.5vw 8vw;
+  }
+  
+  div.res-with-button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5vw;
+  }
+  
+  div.search-tip p {
+    margin: 0;
+  }
+  
+  p.resCount {
+    font-family: SourceSansPro-Semibold;
+    color: #8560a9;
+    font-size: 5vw;
+  }
+  
+  p.resTip {
+    color: #67616d;
+    font-size: 3.75vw;
+    font-family: SourceSansPro-Regular;
+  }
+  
+  div.search-tip button {
+    width: 26vw;
+    height: 8vw;
+    background-color: #d5ef7f;
+    color: #67616d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border-radius: 3.75vw;
+    border-width: 0;
+    font-size: 3.2vw;
+    font-family: SourceSansPro-Semibold;
+  }
+  
+  div.noActivity {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div.noActivity div {
+    width: 19vw;
+    height: 19vw;
+    background-image: url(../../pic/icons/no-activity.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0;
+  }
+  
+  div.noActivity p {
+    font-family:SourceSansPro-Regular;
+    margin: 0;
+    margin-top: 4vw;
+    font-size: 5vw;
+    color: #BABABA;
+  }
+  

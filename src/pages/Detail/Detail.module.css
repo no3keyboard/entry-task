@@ -1,0 +1,20 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,63 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .container{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    width: 100vw;
+    position: fixed;
+    margin-top: 92vh;
+  }
+
+  .leftPart{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    align-items: center;
+    background-color: #8560A9;
+  }
+
+  .xIcon{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 3vw;
+  }
+
+  .inputComment{
+    margin-left: 2vw;
+    border-radius: 5vw;
+    width: 55vw;
+    height: 8vw;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    padding-left: 3vw;
+    outline: none;
+  }
+
+  .rightPart{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    background-color: #D5EF7F;
+    justify-content: center;
+  }
+
+  .sendIcon{
+    width: 10vw;
+    height: 10vw;
+  }

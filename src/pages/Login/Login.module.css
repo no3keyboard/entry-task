@@ -1,0 +1,170 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+ 
+ .container {
+     width: 100%;
+     height: 100%;
+ } 
+ 
+ .box {
+   width: 100%;
+   height: calc(100% - 64px);
+   background-image: url(../../pic/images/Street-Dance-01.jpg);
+   background-size: cover;
+   background-position: -100px, 0;
+   overflow: hidden;
+   position: relative;
+ }
+
+ .insideBox {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-image: linear-gradient(rgba(133, 96, 169, 0.7), rgba(133, 96, 169, 1));
+   opacity: 0.95;
+   display: grid;
+   grid-template-rows: 1fr 150px;
+ }
+
+ .picText {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: 21.563vw 32.5vw 20.313vw;
+ }
+
+ .titleDiv {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   grid-row-start: 2;
+   grid-column-start: 1;
+   grid-column-end: 6;
+ }
+
+ .title1 {
+  font-size: 5vw;
+  color: #D5EF7F;
+  font-family: SourceSansPro-Semibold;
+  margin: 0;
+ }
+
+ .title2 {
+   font-size: 7.5vw;
+   color: #D5EF7F;
+   margin-top: 5vw;
+   font-family: SourceSansPro-Bold;
+ }
+
+ .svgDiv {
+   padding: 1px;
+   border-radius: 100%;
+   border-width: 1px;
+   border-color: rgba(250, 250, 250, 0.5);
+   border-style: solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-column-start: 3;
+   grid-row-start: 3;
+ }
+
+ .svg-Layer1{
+   width: 15.625vw;
+   height: 15.625vw;
+   padding: 1.25vw;
+   color: #D5EF7F;
+   border-radius: 100%;
+   border-width: 1px;
+   border-color: #D5EF7F;
+   border-style: solid;
+   z-index: 15;
+ }
+
+ div.inputDiv {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-self: center;
+   align-self: flex-start;
+ }
+
+ input.username {
+   background-image: url(../../pic/icons/user.svg);
+   background-repeat: no-repeat;
+   background-size: 4.375vw, 4.375vw;
+   background-position: 4.156vw, calc(50% - 4.375vw);
+   margin-top: 20px;
+   margin-bottom: 16px;
+ }
+
+ input.password {
+   background-image: url(../../pic/icons/password.svg);
+   background-repeat: no-repeat;
+   background-size: 4.375vw, 4.375vw;
+   background-position: 4.156vw, calc(50% - 4.375vw);
+   margin-bottom: 20px;
+ }
+
+ input.input {
+   box-sizing: border-box;
+   width: 75vw;
+   height: 12.5vw;
+   border-radius: 6.25vw;
+   background-color: transparent;
+   border-color: #FFFFFF;
+   border-width: 1px;
+   border-style: solid;
+   opacity: 0.7;
+   font-size: 5vw;
+   padding-left: 12.5vw;
+   display: flex;
+   align-items: center;
+   outline: none;
+ }
+
+ input.input:focus {
+   background-color: rgba(255, 255, 255, 0.2);
+ }
+
+ input::-webkit-input-placeholder { 
+     color:#453257;
+     font-family: SourceSansPro-Regular;
+ } 
+
+ input::-moz-placeholder {  
+     color:#453257;
+     font-family: SourceSansPro-Regular;
+ }
+
+ input:-moz-placeholder {    
+     color:#453257;
+     font-family: SourceSansPro-Regular;
+ }
+ 
+ input:-ms-input-placeholder {  
+     color:#453257;
+     font-family: SourceSansPro-Regular;
+ }
+
+ button.button{
+     width: 100%;
+     height: 64px;
+     background-color: #D5EF7F;
+     padding: 0;
+     border-width: 0;
+     font-size: 5vw;
+     font-family: SourceSansPro-Semibold; 
+ }

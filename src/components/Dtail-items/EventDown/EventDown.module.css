@@ -1,0 +1,105 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .when{
+    width: 100%;
+    padding: 5vw 5vw 5vw 0;
+    border-bottom: 0.3vw solid #e8e8e8;
+    margin-left: 5vw;
+  }
+
+  .title{
+    font-family: SourceSansPro-Semibold;
+    font-size: 5vw;
+    color: #8560a9;
+    border-radius: .625vw;
+    border-left: 1.25vw solid #8560a9;
+    padding-left: 1.25vw;
+  }
+
+  .whenContainer{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding-top: 5vw;
+    justify-content: space-evenly;
+  }
+
+  .dateStyle{
+    border-right-color: #E8E8E8;
+    border-right-width: 1px;
+    border-right-style: solid;
+    margin-right: 3vw;
+    padding-right: 7vw;
+  }
+
+  .dateStyle1{
+    margin-right: 5vw;
+    padding-right: 5vw;
+  }
+
+  .whenContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whenContent img{
+    width: 5vw;
+    margin-right: 1vw;
+  }
+
+  .dateDay{
+    font-family: SourceSansPro-Regular;
+    margin: 0;
+    color: #67616D;
+  }
+
+  .dateTime{
+    font-family: SourceSansPro-Regular;
+    color: #aecb4f;
+    font-size: 10vw;
+    margin: 2vw 5vw 0 8vw;
+  }
+
+  /* --------------where-------------- */
+
+  .where{
+    width: 100%;
+    padding: 5vw 5vw 5vw 0;
+    border-bottom: 0.3vw solid #e8e8e8;
+    margin-left: 5vw;
+  }
+
+  .whereLocate{
+    font-family: SourceSansPro-Semibold;
+    font-size: 4.5vw;
+    color: #67616d;
+    margin-top: 2vw;
+  }
+  
+  .whereDetail{
+    font-family: SourceSansPro-Regular;
+    font-size: 4.3vw;
+    color: #67616d;
+    margin-bottom: 3vw;
+  }
+
+  .mapStyle{
+    width: 90vw;
+    height: 27.5vw;
+    border-radius: 3vw
+  }

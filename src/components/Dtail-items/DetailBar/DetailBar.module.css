@@ -1,0 +1,65 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+ .detailBar{
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    width: 100vw;
+    position: fixed;
+    margin-top: 92vh;
+    z-index: 21;
+  }
+
+  .leftPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+    background-color: #8560a9;
+  }
+
+  .commentICON{
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .likeICON{
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .rightPart{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40vw;
+    background-color: #D5EF7F;
+  }
+
+  .jionICON{
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .rightPart p{
+    font-family: SourceSansPro-Semibold;
+    font-size: 5vw;
+    color: #788C36;
+    margin-left: 1vw;
+  }

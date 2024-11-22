@@ -1,0 +1,135 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .container{
+    box-sizing: border-box;
+    width: 95vw;
+    padding: 5vw 5vw 5.5vw 0;
+    border-bottom-style: solid;
+    border-bottom-color: #E8E8E8;
+    border-bottom-width: 1px;
+    margin-left: 16px;
+  }
+
+  .userInfo{
+    width: 100%;
+    height: 6.25vw;
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .userMes{
+    display: flex;
+    align-items: center;
+  }
+
+  .userMes img{
+    width: 6.25vw;
+    height: 6.25vw;
+    margin-right: 2.5vw;
+    border-radius: 100%;
+  }
+
+  .userName{
+    font-family: SourceSansPro-Semibold;
+    font-size: 3.75vw;
+    color: #67616d;
+  }
+  
+  .channel{
+    font-family: SourceSansPro-Regular;
+    font-size: 3.75vw;
+    color: #8560a9;
+    border-radius: 3.2vw;
+    border: 1px solid #8560a9;
+    padding: .6vw 3.1vw .9vw 1.8vw;
+  }
+
+  .titleArea{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title{
+    margin-top: 2.5vw;
+    font-family: SourceSansPro-Semibold;
+    font-size: 5.6vw;
+    width: 70vw;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #453257;
+  }
+
+  .timeLine{
+    height: 4.6vw;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5vw;
+    margin-bottom: 3.75vw;
+  }
+
+  .timeLine img{
+    width: 3.75vw;
+    height: 3.75vw;
+    margin-right: 1.5vw;
+  }
+
+  .time{
+    font-family: SourceSansPro-Regular;
+    font-size: 3.75vw;
+    color: #8560a9;
+  }
+  
+  .titlePic{
+    width: 15.5vw;
+    height: 12.5vw;
+    margin-top: 3.5vw;
+    border-width: 0;
+  }
+
+  .contentText{
+    font-size: 4.3vw;
+    font-family: SourceSansPro-Regular;
+    margin-bottom: 3.75vw;
+    overflow: hidden;
+    color: #67616D;
+    text-overflow: ellipsis; /* 当文本溢出容器时，使用省略号（...）表示被截断的内容。 */
+    display: -webkit-box;  /* 将元素的显示类型设置为flexbox的旧版本 */
+    -webkit-line-clamp: 3; /* 限制文本显示的行数 */
+    -webkit-box-orient: vertical; /* 设置flexbox的方向为垂直方向 */
+  }
+
+  .goAndLike{
+    display: grid;
+    grid-template-columns: 32.5vw auto;
+  }
+
+  .isGoLike{
+    display: flex;
+    align-items: center;
+  }
+
+  .isGoLike img{
+    width: 3.75vw;
+    height: 3vw;
+  }
+
+  .isGoLike p{
+    font-size: 3.75vw;
+    font-family: SourceSansPro-Regular;
+    color: #8560a9;
+    margin: 0 0 0 1.5vw;
+  }

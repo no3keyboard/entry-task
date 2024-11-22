@@ -1,0 +1,79 @@
+  /* 引入字体 */
+  @font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-bottom: 15vw;
+  }
+
+  .commentItem{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+  }
+
+  .userAvatar{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin-right: 3vw;
+    margin-top: 2vw;
+  }
+
+  .commentInfo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .userName{
+    font-family: SourceSansPro-Regular;
+    font-size: 5vw;
+    color: #8560A9;
+    
+  }
+
+  .postTime{
+    font-family: SourceSansPro-Regular;
+    font-size: 4vw;
+    color: #BABABA;
+    margin-left: 3vw;
+    margin-right: 35vw;
+  }
+
+  .forwordIcon{
+    position: absolute;
+    width: 5vw;
+    padding-left: 73vw;
+  }
+
+  .commentText {
+    font-size: 5vw;
+    padding-right: 10vw;
+    font-family: SourceSansPro-Regular;
+    color: #67616D;
+    word-wrap: break-word; 
+    word-break: break-all; 
+    white-space: normal;   
+  }
